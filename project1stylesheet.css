@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e76a8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #0a577a;
+}
+
+.youtube-btn {
+    background-color: #FF0000;
+}
+
+.youtube-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Section Titles */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Experience Section */
+.experience-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.experience-gallery {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* Ensures images wrap within the box */
+    gap: 10px;
+}
+
+.experience-gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;  /* Larger images */
+    object-fit: cover;  /* Makes sure all images cover the same dimensions */
+    border-radius: 5px;
+    box-sizing: border-box;  /* Ensure images stay inside the box */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 1rem;
+}
